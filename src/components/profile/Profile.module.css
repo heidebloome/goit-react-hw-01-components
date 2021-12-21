@@ -13,9 +13,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background-color: #fff;
+  background-color: var(--white-color);
 
-  border: 1px solid darkgrey;
+  border: 1px solid var(--border-color);
   border-bottom: none;
 }
 
@@ -29,6 +29,7 @@
 
 .name {
   margin-bottom: 10px;
+
   font-weight: bold;
 }
 
@@ -37,20 +38,20 @@
 
   font-size: 14px;
 
-  color: rgb(121, 121, 121);
+  color: var(--secondary-text-color);
 }
 
 .location {
   font-size: 14px;
 
-  color: rgb(121, 121, 121);
+  color: var(--secondary-text-color);
 }
 
 .stats {
   display: flex;
 }
 
-.item {
+.statsItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,19 +61,19 @@
 
   font-size: 14px;
 
-  background-color: rgb(241, 241, 241);
+  background-color: var(--background-color);
 
-  border: 1px solid darkgrey;
+  border: 1px solid var(--border-color);
 }
 
-.item:not(:last-child) {
+.statsItem:not(:last-child) {
   border-right: none;
+}
+
+.label {
+  color: var(--secondary-text-color);
 }
 
 .quantity {
   font-weight: bold;
-}
-
-.label {
-  color: rgb(121, 121, 121);
 }

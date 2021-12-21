@@ -1,10 +1,11 @@
 .friendList {
   width: 300px;
   padding: 20px;
+  margin-bottom: 15px;
 
-  background-color: white;
+  background-color: var(--white-color);
 
-  border: 1px solid darkgrey;
+  border: 1px solid var(--border-color);
 }
 
 .item {
@@ -25,19 +26,17 @@
   height: 10px;
   margin-right: 10px;
 
-  /* background-color: red; */
-
   border-radius: 50%;
 }
 
 .online {
   composes: status;
-  background-color: green;
+  background-color: var(--green-color);
 }
 
 .offline {
   composes: status;
-  background-color: red;
+  background-color: var(--red-color);
 }
 
 .avatar {

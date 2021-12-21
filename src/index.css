@@ -1,7 +1,14 @@
+:root {
+  --white-color: #ffffff;
+  --secondary-text-color: #797979;
+  --background-color: #f1f1f1;
+  --border-color: #a9a9a9;
+  --green-color: #008000;
+  --red-color: #ff0000;
+  --table-title-color: #81b1b8;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0;
   padding: 15px;
 
@@ -19,6 +26,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {

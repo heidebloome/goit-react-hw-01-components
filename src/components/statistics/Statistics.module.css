@@ -15,9 +15,9 @@
   text-align: center;
   text-transform: uppercase;
 
-  background-color: white;
+  background-color: var(--white-color);
 
-  border: 1px solid darkgrey;
+  border: 1px solid var(--border-color);
   border-bottom: none;
 }
 
@@ -34,8 +34,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
-  background-color: rgb(241, 241, 241);
-  border: 1px solid darkgrey;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
 }
 
 .statItem:not(:last-child) {
@@ -47,7 +47,7 @@
 
   font-size: 12px;
 
-  color: rgb(121, 121, 121);
+  color: var(--secondary-text-color);
 }
 
 .percentage {

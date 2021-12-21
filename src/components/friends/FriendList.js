@@ -5,7 +5,7 @@ const FriendList = ({ friends }) => {
   return (
     <ul className={styles.friendList}>
       {friends.map((item) => {
-        let type = item.isOnline ? 'online' : 'offline';
+        const type = item.isOnline ? 'online' : 'offline';
         return (
           <li className={styles.item} key={item.id}>
             <span className={styles[type]}>{item.isOnline}</span>
