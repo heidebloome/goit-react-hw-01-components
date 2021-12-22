@@ -1,4 +1,4 @@
-.friendList {
+.list {
   width: 300px;
   padding: 20px;
   margin-bottom: 15px;
@@ -6,39 +6,4 @@
   background-color: var(--white-color);
 
   border: 1px solid var(--border-color);
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 10px;
-
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-}
-
-.item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.status {
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-
-  border-radius: 50%;
-}
-
-.online {
-  composes: status;
-  background-color: var(--green-color);
-}
-
-.offline {
-  composes: status;
-  background-color: var(--red-color);
-}
-
-.avatar {
-  margin-right: 10px;
 }
